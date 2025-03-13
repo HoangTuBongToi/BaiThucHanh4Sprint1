@@ -120,7 +120,7 @@ public class Cong extends javax.swing.JFrame {
     private void nutCongActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nutCongActionPerformed
         float a = Integer.parseInt(stn.getText());
         float b = Integer.parseInt(sth.getText());
-        float c = a + b;
+        float c = a + b;            //congByNhan
         kq.setText(String.valueOf(c));
     }//GEN-LAST:event_nutCongActionPerformed
 
